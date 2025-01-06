@@ -1,20 +1,21 @@
 import './App.css'
-import Header from "./components/Header.jsx";
-import PageSection1 from "./components/PageSection1.jsx";
-import Footer from "./components/Footer.jsx";
-import ContactUs from "./components/ContactUs.jsx";
+
+import {BrowserRouter, Route, Routes} from "react-router-dom";
+
+import HomePage from "./pages/HomePage.jsx";
+import Registration_Page from "./pages/Registration_Page.jsx";
+
 
 function App() {
-
-
     return (
         <div>
-            <Header/>
-            <PageSection1/>
-            <ContactUs/>
-            <Footer/>
+            <BrowserRouter>
+                <Routes>
+                    <Route path="/home" element={<HomePage/>}/>
+                    <Route path={"/registration"} element={<Registration_Page/>}/>
+                </Routes>
+            </BrowserRouter>
         </div>
-
 
     )
 }

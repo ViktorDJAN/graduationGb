@@ -15,10 +15,10 @@ function Header() {
                     <p className="sectionName">725 Park Ave, New York</p>
                 </div>
                 <div className="section_upper_header">
-                    <img id="header_upper_icon_type2" src="/src/assets/instagram_icon1.png" alt="clock_sign"/>
-                    <img id="header_upper_icon_type2" src="/src/assets/facebook_icon2.png" alt="clock_sign"/>
-                    <img id="header_upper_icon_type2" src="/src/assets/twitter_icon3.png" alt="clock_sign"/>
-                    <img id="header_upper_icon_type2" src="/src/assets/linkedin_icon4.png" alt="clock_sign"/>
+                    <img id="header_upper_icon_type2" src="/src/assets/instagram_icon1.png" alt="instagram_icon1_sign"/>
+                    <img id="header_upper_icon_type2" src="/src/assets/facebook_icon2.png" alt="facebook_icon2_sign"/>
+                    <img id="header_upper_icon_type2" src="/src/assets/twitter_icon3.png" alt="twitter_icon3_sign"/>
+                    <img id="header_upper_icon_type2" src="/src/assets/linkedin_icon4.png" alt="linkedin_icon4"/>
                 </div>
             </div>
 

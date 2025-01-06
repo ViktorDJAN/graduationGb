@@ -1,0 +1,41 @@
+
+.registration_input {
+
+}
+
+.contact_us_cell_register {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.input_fields_row1_register {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.send_button_register {
+    font-size: 1vw;
+    height: 2vw;
+    width: 10vw;
+    margin-top: 12%;
+    background-color: #181818;
+    color: white;
+    border-radius: 200px;
+    margin-bottom: 15%;
+}
+
+.register_title {
+    margin-top: 2%;
+    font-size: 2vw;
+    margin-bottom: 2%;
+}
+
+.home_link {
+    font-size: 1.2vw;
+    color: black;
+}
+.home_link_div{
+    margin-bottom: 2%;
+}

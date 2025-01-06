@@ -1,9 +1,27 @@
 import "../styles/PageSection.css";
 
 
+
 const PageSection1 = () => {
-    return(
-        <div className={"page_section_container"}>
+
+    // const [child1, setChild1] = useState(false);
+    //
+    // const showLogoPage = (varname) => {
+    //     switch (varname) {
+    //         case "child1":
+    //             setChild1(!child1);
+    //             break;
+    //
+    //         default:
+    //             return;
+    //     }
+    // };
+
+
+    return (
+
+
+    <div className={"page_section_container"}>
             <header className="header">
                 <div className="logo_and_name">
                     <img className={"header_logo"} src="/src/assets/logoApp.png" alt="header_logo"/>
@@ -11,7 +29,7 @@ const PageSection1 = () => {
                 </div>
                 <nav className={"header_nav"}>
                     <ul className={"header_ul"}>
-                        <li className={"li_Link"}><a className={"line"} href="#">Home</a></li>
+                        <li className={"li_Link"}><a className={"line"} href="/home">Home</a></li>
                         <li className={"li_Link"}><a className={"line"} href="#">Work</a></li>
                         <li className={"li_Link"}><a className={"line"} href="#">Services</a></li>
                         <li className={"li_Link"}><a className={"line"} href="#">Contact</a></li>
@@ -21,9 +39,16 @@ const PageSection1 = () => {
                     <img id={"header_icon_phone"} src="/src/assets/phone-call.png" alt=""/>
                     <p className={"phone_number"}>+7 888 999 9999</p>
                 </div>
+                <div>
+                    {/*todo  add  logics*/}
+
+                    <button className={"line button_header"}>
+                        <a className={"line"} href="/registration">SIGN UP</a>
+                    </button>
+                </div>
             </header>
             <div className="pg_section_cell">
-            <div className="pg_section_left">
+                <div className="pg_section_left">
                     <h2 className={"pg1_title"}>We connect</h2>
                     <h2 className={"pg_section_h2"}> people, services and companies</h2>
                     <p className={"pg_section_p2"}>
@@ -64,6 +89,7 @@ const PageSection1 = () => {
 
                 </div>
             </div>
+
 
         </div>
     )

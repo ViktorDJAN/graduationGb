@@ -113,6 +113,17 @@
     -webkit-transition: all 0.1s ease;
 }
 
+.button_header{
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 200px;
+    width: 9vw;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 100%;
+    color: white;
+}
+
 
 .title_header {
     color: #FFCC4A;
@@ -128,15 +139,13 @@
 
 
 .line:hover {
-    transform: scale(2.1);
+    transform: scale(1.1);
     color: #f9d520;
 
 }
 
 .line:active {
     text-shadow: 2px 2px 2px #ff8000;
-
-
 }
 
 a {
