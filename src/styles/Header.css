@@ -1,0 +1,144 @@
+.header {
+    top: 0;
+    z-index: 1000;
+    color: dodgerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1B1B1B;
+    opacity: 91%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+
+}
+
+/*________*/
+.headerUpperPart {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: #181818;
+}
+
+.section_upper_header {
+    display: flex;
+    justify-content: center;
+    padding-right: 10px;
+}
+
+#header_upper_icon {
+    filter: invert(86%) sepia(13%) saturate(12345%) hue-rotate(364deg) brightness(100%) contrast(100%);
+    width: 5%;
+    margin-right: 10px;
+}
+
+#header_upper_icon_type2 {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(130deg) brightness(100%) contrast(100%);
+    width: 7%;
+    margin-right: 5%;
+}
+
+#header_icon_phone {
+    filter: invert(86%) sepia(13%) saturate(12345%) hue-rotate(364deg) brightness(100%) contrast(100%);
+    width: 2vw;
+    margin-right: 5%;
+    margin-left: -3.9vw;
+}
+
+
+.sectionName {
+    color: #FFFFFF;
+    font-size: 1vw;
+}
+
+.logo_and_name {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2%;
+}
+
+.phone_block {
+    color: black;
+    margin-left: 10%;
+    background-color: #ffffff;
+    border-radius: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 12vw;
+    padding-left: 30px;
+}
+
+.phone_number {
+    font-size: 1vw;
+}
+
+/*________*/
+
+.header_container {
+    min-width: 1240px;
+    background: #515151;
+}
+
+
+.header_ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    list-style-type: none;
+}
+
+.header_logo {
+    margin-left: -10%;
+    width: 3.5vw;
+    filter: invert(86%) sepia(13%) saturate(12345%) hue-rotate(364deg) brightness(100%) contrast(100%);
+    margin-right: 5%;
+}
+
+
+.line {
+    /* Время эффекта */
+    text-align: center;
+    color: #ffffff; /* Цвет текста */
+    font-size: 1vw;
+    padding: 20px 0px;
+    cursor: pointer;
+    text-transform: uppercase;
+    line-height: 1;
+    -webkit-transition: all 0.1s ease;
+}
+
+
+.title_header {
+    color: #FFCC4A;
+    font-size: 2vw;
+    font-weight: bold;
+    margin-right: 4%;
+
+}
+
+.li_Link {
+    margin-right: -30%;
+}
+
+
+.line:hover {
+    transform: scale(2.1);
+    color: #f9d520;
+
+}
+
+.line:active {
+    text-shadow: 2px 2px 2px #ff8000;
+
+
+}
+
+a {
+    text-decoration-line: none;
+}

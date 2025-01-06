@@ -1,0 +1,80 @@
+:root {
+    --colorBlue: #FFCC4A;
+}
+
+.page_section_container {
+    min-width: 1240px;
+
+    background-image: linear-gradient(rgb(12 163 238 / 50%), rgb(0 0 0 / 30%)), url(src/assets/page_section1_bg.jpeg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+
+
+}
+
+.pg_section_cell {
+    display: flex;
+    justify-content: space-around;
+}
+
+.pg_section_h2 {
+    font-size: 4vw;
+    color: white;
+}
+
+.pg_section_p {
+    font-size: 1.5em;
+    margin-top: 12%;
+    text-align: left;
+    color: white;
+}
+
+#pg1_section_img1 {
+    width: 100%;
+    height: 100%;
+}
+
+.pg_section_left {
+    width: 50%;
+    /*background-color: rgba(73, 134, 204, .08);*/
+
+}
+
+.pg_section_right {
+    width: 50%;
+}
+
+
+.pg1_title {
+    font-size: 6vw;
+    display: inline-block;
+    white-space: nowrap;
+    color: var(--colorBlue);
+    /*background-color: rgba(73, 134, 204, .08);*/
+}
+
+.pg1_title2 {
+    margin-left: 10px;
+    font-size: 4vw;
+    text-align: left;
+    color: var(--colorBlue);
+
+}
+
+.pg_achievements_grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.h1_achieve {
+    font-size: 4vw;
+    color: #fff0bb;
+}
+
+.pg_section_p2 {
+    font-size: 2vw;
+    color: white;
+}
