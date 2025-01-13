@@ -1,0 +1,26 @@
+
+.page_section_container {
+    min-width: 1240px;
+
+    background-image: linear-gradient(rgb(12 163 238 / 50%), rgb(0 0 0 / 30%));
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+}
+.services_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 15%;
+    padding-right:  15%;
+}
+.cell{
+    padding-top: 4vh;
+    text-align: center;
+    border: 1px solid red;
+    color: #000000;
+    font-size: 1vw;
+    height: 12vh;
+
+}

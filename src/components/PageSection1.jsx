@@ -3,21 +3,6 @@ import "../styles/PageSection.css";
 
 
 const PageSection1 = () => {
-
-    // const [child1, setChild1] = useState(false);
-    //
-    // const showLogoPage = (varname) => {
-    //     switch (varname) {
-    //         case "child1":
-    //             setChild1(!child1);
-    //             break;
-    //
-    //         default:
-    //             return;
-    //     }
-    // };
-
-
     return (
 
 
@@ -31,7 +16,7 @@ const PageSection1 = () => {
                     <ul className={"header_ul"}>
                         <li className={"li_Link"}><a className={"line"} href="/home">Home</a></li>
                         <li className={"li_Link"}><a className={"line"} href="#">Work</a></li>
-                        <li className={"li_Link"}><a className={"line"} href="#">Services</a></li>
+                        <li className={"li_Link"}><a className={"line"} href="/services">Services</a></li>
                         <li className={"li_Link"}><a className={"line"} href="#">Contact</a></li>
                     </ul>
                 </nav>

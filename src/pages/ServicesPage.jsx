@@ -1,15 +1,18 @@
 import Header from "../components/Header.jsx";
+
 import Footer from "../components/Footer.jsx";
-import Registration from "../components/Registration.jsx";
+import PageSection2 from "../components/PageSection2.jsx";
 
 
-const Registration_Page=()=>{
-    return(
+const ServicesPage = () => {
+
+    return (
         <div>
             <Header/>
-           <Registration/>
+            <PageSection2/>
             <Footer/>
+
         </div>
     )
 }
-export default Registration_Page;
+export default ServicesPage;
