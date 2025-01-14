@@ -39,3 +39,15 @@
 .home_link_div{
     margin-bottom: 2%;
 }
+
+.city_input{
+
+    width: 100%;
+
+}
+
+#city_name_input{
+    font-size: 3vw;
+
+    height: 5vw;
+}
