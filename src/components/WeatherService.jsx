@@ -62,6 +62,9 @@ const WeatherService = () => {
                 <h2 className="city_info_field_h2" id={"pressure_h2"}>Pressure: </h2>
             </div>
             <button className={"send_button"} onClick={showData}>ok</button>
+            <div className={"home_link_div_type2"}>
+                <a className={"home_link line"} href="/home">home</a>
+            </div>
         </div>
     )
 }

@@ -43,7 +43,6 @@ const Registration = () => {
             </div>
             <div className={"home_link_div"}>
                 <a className={"home_link line"} href="/home">home</a>
-
             </div>
         </div>
     )

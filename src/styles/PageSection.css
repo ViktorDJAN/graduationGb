@@ -13,12 +13,14 @@
 }
 
 .pg_section_cell {
+    padding-top: 5%;
+    padding-bottom: 5%;
     display: flex;
     justify-content: space-around;
 }
 
 .pg_section_h2 {
-    font-size: 4vw;
+    font-size: 3vw;
     color: white;
 }
 
@@ -46,7 +48,7 @@
 
 
 .pg1_title {
-    font-size: 6vw;
+    font-size: 4vw;
     display: inline-block;
     white-space: nowrap;
     color: var(--colorOrange);

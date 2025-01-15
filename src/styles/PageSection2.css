@@ -1,7 +1,7 @@
 
 .page_section_container_type2 {
-    min-width: 1240px;
 
+    min-width: 1240px;
     background-image: linear-gradient(rgb(12 163 238 / 50%), rgb(0 0 0 / 30%));
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -9,18 +9,69 @@
     background-size: cover;
     height: 100%;
 }
-.services_grid{
+
+.services_grid {
+    padding-top: 5%;
+    padding-bottom: 5%;
+
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding-left: 15%;
-    padding-right:  15%;
+    padding-right: 15%;
 }
-.cell{
-    padding-top: 4vh;
-    text-align: center;
-    border: 1px solid red;
-    color: #000000;
-    font-size: 1vw;
-    height: 12vh;
 
+.cell {
+    width: 80%;
+    font-size: 1.2vw;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 5%;
+    height: 5vw;
+    align-content: center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 6px;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover {
+    width: 200px;
+    font-size: 1vw;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 5%;
+    height: 55px;
+    text-align: center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 6px;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.cell:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.cell:focus {
+    outline: none;
+}
+
+.service_link {
+    color: white;
+}
+
+.cell.color-1 {
+    background-image: linear-gradient(to right, #1c74b1, rgba(205, 116, 0, 0.52), #A3A1FF, #F24645);
+    box-shadow: 0 4px 15px 0 rgba(32, 211, 221, 0.75);
 }
