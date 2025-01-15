@@ -1,18 +1,15 @@
 :root {
-    --colorBlue: #FFCC4A;
+    --colorOrange: #FFCC4A;
 }
 
 .page_section_container {
     min-width: 1240px;
-
     background-image: linear-gradient(rgb(12 163 238 / 50%), rgb(0 0 0 / 30%)), url(src/assets/page_section1_bg.jpeg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     height: 100%;
-
-
 }
 
 .pg_section_cell {
@@ -52,7 +49,7 @@
     font-size: 6vw;
     display: inline-block;
     white-space: nowrap;
-    color: var(--colorBlue);
+    color: var(--colorOrange);
     /*background-color: rgba(73, 134, 204, .08);*/
 }
 
@@ -60,7 +57,7 @@
     margin-left: 10px;
     font-size: 4vw;
     text-align: left;
-    color: var(--colorBlue);
+    color: var(--colorOrange);
 
 }
 
