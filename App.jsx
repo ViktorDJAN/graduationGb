@@ -8,7 +8,6 @@ import ServicesPage from "./pages/ServicesPage.jsx";
 import WeatherPage from "./pages/WeatherPage.jsx";
 import ChatPage from "./pages/ChatPage.jsx";
 import TestPage from "./pages/TestPage.jsx";
-import ProductsSection from "./components/pagination/ProductsSection.jsx";
 
 
 function App() {
@@ -22,7 +21,6 @@ function App() {
                     <Route path="/weather" element={<WeatherPage/>}/>
                     <Route path="/chat" element={<ChatPage/>}/>
                     <Route path="/test_page" element={<TestPage/>}/>
-                    <Route path="*" element={<ProductsSection/>}/>
                 </Routes>
             </BrowserRouter>
         </div>

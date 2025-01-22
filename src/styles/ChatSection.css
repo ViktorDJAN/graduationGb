@@ -1,0 +1,33 @@
+.chat_container{
+    min-width: 1240px;
+}
+.chat_section_main{
+    border: 1px solid darkgreen;
+    display: flex;
+    justify-content: center;
+}
+
+.left_part{
+    border: 1px solid #9e4e93;
+    width: 30%;
+    margin-left:2% ;
+    display: grid;
+    grid-template-columns: 1fr ;
+
+}
+.right_part{
+    border: 1px solid #0e75c8;
+    width: 66%;
+    margin-right: 2%;
+}
+.logo_section{
+    border: 1px solid #8b7aca;
+
+}
+
+.contacts_group{
+    border: 1px solid #c13434;
+}
+.contact{
+    border: 1px solid #00e606;
+}
