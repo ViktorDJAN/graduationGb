@@ -35,9 +35,9 @@ function ProductsSection() {
 
 
             <Routes>
-                <Route path={"/list/page/:pageNumber"} element={<ProductsList products={products}/>}/>
+                <Route path={"/products/page/:pageNumber"} element={<ProductsList products={products}/>}/>
                 <Route path={"some/product/:productId"} element={<ProductDetailed products={products}/>}/>
-                <Route path={"/list/"} element={<ProductsList products={products}/>}/>
+                <Route path={"/products/"} element={<ProductsList products={products}/>}/>
             </Routes>
 
 

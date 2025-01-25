@@ -24,7 +24,6 @@ function App() {
                     <Route path="/chat" element={<ChatPage/>}/>
                     <Route path="/test_page" element={<TestPage/>}/>
                     <Route path="/todo_page" element={<TodoPage/>}/>
-
                     <Route path="*" element={<ProductsSection/>}/>
 
                 </Routes>

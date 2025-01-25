@@ -13,6 +13,8 @@ const ProductDetailed = ({products}) => {
             <h2>{product.name}</h2>
             <p>{product.description}</p>
             <p>{product.price}</p>
+            
+            <div><a href="/products">back to products</a></div>
         </div>
     );
 }

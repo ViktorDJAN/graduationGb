@@ -9,7 +9,7 @@ function Pagination({totalProducts,productsPerPage, currentPage}){
         <div>
             <h3>Pagination</h3>
             {Array.from({length:totalPages},(w, index)=>(
-                <Link key={index} to={`/list/page/${index+1}`}>{index+1} </Link>
+                <Link key={index} to={`/products/page/${index+1}`}>{index+1} </Link>
             ))}
         </div>
     );
